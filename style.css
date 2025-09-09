@@ -34,7 +34,7 @@ input[type="file"] {
   cursor: pointer;
   color: #ddd;
   font-size: 1rem;
-  width: 220px;
+  width: 230px;
   max-width: 100%;
   box-sizing: border-box;
 }
