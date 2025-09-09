@@ -226,16 +226,22 @@ footer span.version { display: inline-block; margin-left: 1rem; color: #888; fon
   }
   header {
     padding: 0.5rem 0.5rem;
+    overflow-x: hidden;
+    
   }
   footer {
     font-size: 0.8rem;
     min-height: 48px;
     padding: 0.3rem 0;
     box-shadow: 0 -1px 4px rgba(0,0,0,0.10);
+    overflow-x: hidden;
+    
   }
   }
   h1 {
     font-size: 1.3rem;
+    overflow-x: hidden;
+    
   }
   #flashcardContainer {
     padding: 0.2rem;
@@ -251,6 +257,8 @@ footer span.version { display: inline-block; margin-left: 1rem; color: #888; fon
   .flashcard-front, .flashcard-back {
     font-size: 1rem;
     padding: 0.5rem;
+    overflow-x: hidden;
+    
   }
   #createSection {
     width: 94vw;
@@ -268,20 +276,28 @@ footer span.version { display: inline-block; margin-left: 1rem; color: #888; fon
   #createSection {
     max-width: 340px;
     padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+    overflow-x: hidden;
+    
   }
   }
   #createSection input, #createSection button {
     font-size: 1rem;
     padding: 0.7rem;
+    overflow-x: hidden;
+    
   }
   .answer-buttons {
     flex-direction: column;
     gap: 0.5rem;
+    overflow-x: hidden;
+    
   }
   .correct-btn, .wrong-btn, .skip-btn {
     width: 100%;
     font-size: 1.1rem;
     padding: 0.7rem 0;
+    overflow-x: hidden;
+    
   }
   #messageBanner {
   max-width: 98vw;
